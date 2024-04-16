@@ -24,13 +24,15 @@
 
                 //stampo la lunghezza
                 //Console.WriteLine(CibiPreferiti[i].Length);
-                Console.WriteLine(i+1);
+                Console.Write(i+1 + " ");
 
                 //cosi facendo stampo semplicemente l'array 
                 Console.WriteLine(CibiPreferiti[i]);
                 
 
             }
+
+            Console.WriteLine("il mio piatto preferito e la " + CibiPreferiti[0]);
 
 
 
