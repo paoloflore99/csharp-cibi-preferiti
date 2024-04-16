@@ -9,7 +9,7 @@
             for (int i = 1; i <= 5; i++)
             {
                 //stampo la classifica
-                Console.WriteLine(i);
+                ;
             }
 
 
@@ -20,10 +20,16 @@
             //ciclo l'array 
             for (int i =0;  i < CibiPreferiti.Length; i++)
             {
-               // Console.WriteLine(CibiPreferiti[0]);
+                // Console.WriteLine(CibiPreferiti[0]);
 
-             //cosi facendo stampo semplicemente l'array 
-             Console.WriteLine(CibiPreferiti[i]);
+                //stampo la lunghezza
+                //Console.WriteLine(CibiPreferiti[i].Length);
+                Console.WriteLine(i+1);
+
+                //cosi facendo stampo semplicemente l'array 
+                Console.WriteLine(CibiPreferiti[i]);
+                
+
             }
 
 
@@ -31,11 +37,11 @@
 
 
             //metodo 2
-            string[,] CibiPreferitiDue = { { "carbonara", "1" } , { "amatriciana", "2"} , { "pasta","3" }, { "pesce", "4"} , { "torta" , "5" } };
+            string[ , ] CibiPreferitiDue = { { "carbonara", "1" } , { "amatriciana", "2"} , { "pasta","3" }, { "pesce", "4"} , { "torta" , "5" } };
             
             for (int i =0;i < CibiPreferitiDue.Length;i++)
             {
-                Console.WriteLine(CibiPreferitiDue[i]);
+                Console.WriteLine(CibiPreferitiDue[0,0]);
             }
         }
     }
