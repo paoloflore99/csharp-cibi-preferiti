@@ -33,6 +33,7 @@
             }
 
             Console.WriteLine("il mio piatto preferito e la " + CibiPreferiti[0]);
+            Console.WriteLine("cibo di mezzo " + CibiPreferiti[2]);
 
 
 
