@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string[] CibiPreferiti = { "carbonara", "amatriciana" , "pasta" , "pesce" , "torta"};
+
+            for(int i =0;  i < CibiPreferiti.Length; i++)
+            {
+                Console.WriteLine(CibiPreferiti[i]);
+            }
         }
     }
 }
