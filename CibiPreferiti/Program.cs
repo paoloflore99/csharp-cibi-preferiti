@@ -4,11 +4,38 @@
     {
         static void Main(string[] args)
         {
-            string[] CibiPreferiti = { "carbonara", "amatriciana" , "pasta" , "pesce" , "torta"};
 
-            for(int i =0;  i < CibiPreferiti.Length; i++)
+            //qui stampo la classifica 
+            for (int i = 1; i <= 5; i++)
             {
-                Console.WriteLine(CibiPreferiti[i]);
+                //stampo la classifica
+                Console.WriteLine(i);
+            }
+
+
+            //creazione array
+            string[] CibiPreferiti = { "carbonara", "amatriciana" , "pasta" , "pesce" , "torta"};
+            
+
+            //ciclo l'array 
+            for (int i =0;  i < CibiPreferiti.Length; i++)
+            {
+               // Console.WriteLine(CibiPreferiti[0]);
+
+             //cosi facendo stampo semplicemente l'array 
+             Console.WriteLine(CibiPreferiti[i]);
+            }
+
+
+
+
+
+            //metodo 2
+            string[,] CibiPreferitiDue = { { "carbonara", "1" } , { "amatriciana", "2"} , { "pasta","3" }, { "pesce", "4"} , { "torta" , "5" } };
+            
+            for (int i =0;i < CibiPreferitiDue.Length;i++)
+            {
+                Console.WriteLine(CibiPreferitiDue[i]);
             }
         }
     }
